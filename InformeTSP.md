@@ -87,6 +87,10 @@ Errores Leves, errores en presentación de datos secundarios, no adecuación a e
 
 ![Kruskal 3](https://i.ibb.co/qRkGXz9/Kruskal3.jpg)
 
+*Preorder*
+
+![Preorder 1](https://i.ibb.co/1b3HSSb/Preorder1.jpg)
+
 **Medir atributos de calidad del desarrollo de la solución TSP**
 
 *Caso 1*
