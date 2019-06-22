@@ -26,12 +26,85 @@ El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienz
 **Alcance de las pruebas:** mediante los siguientes cuadros se describen los requerimientos de pruebas del sistema TSP.
 
 **Cuadro resumen de las pruebas:** 
-| :-------- | :-------- |
-| Módulos del Sistema Sencillito a ser probados | * Módulos: * interfaz * calcular * mapa | 
-| Objetivos de las pruebas | * En estos Módulos se realizarán pruebas para validar: * La visualización de los datos, ingresados o modificados. * La graficación en un mapa topográfico de las solución. * La visualización de la resolución del Problema. * La respuesta y realización de las transacciones de cada módulo. | 
-| Detalle del orden de ejecución de los módulos	| * Los módulos se deben ejecutar en forma independiente, pero consecutivos en el orden siguiente:
 
-* interfaz
-* calcular
-* mapa | 
-| Responsabilidad de la prueba | Las pruebas son responsabilidad del Testing Operacional del equipo de proyecto. |
+![Cuadro 1](https://i.ibb.co/W58F4mr/Cuadro1.jpg)
+
+**Cuadro resumen de las pruebas unitarias de los componentes de la solución TSP:**
+
+![Cuadro 2](https://i.ibb.co/M5B7vb2/Cuadro2.jpg)
+
+**Criterios de aprobación / rechazo:**
+
+Errores Graves, información crítica presentada erróneamente, información mal registrada en la base de datos, caídas de programas, incumplimiento de objetivos en funciones principales, etc. 
+
+Errores Medios (comunes), errores en documentos impresos que se entregan a personas ajenas a la organización, errores en presentación de datos, incumplimiento de objetivos en funciones secundarias, caídas de programas auxiliares, etc.
+
+Errores Leves, errores en presentación de datos secundarios, no adecuación a estándares, comportamientos correctos pero diferentes en situaciones similares, dificultades de operación, etc.
+
+![Cuadro 3](https://i.ibb.co/fQfsbxc/Cuadro3.jpg)
+
+## 5. Diseño de experimentos
+
+**Implementación de pruebas de acuerdo con el diseño elaborado**
+
+*Interfaz*
+
+![Interfaz 1](https://i.ibb.co/tQ4yKG4/Codigo1.jpg)
+
+![Interfaz 2](https://i.ibb.co/KmtNZYh/Interfaz2.jpg)
+
+*Calcular*
+
+![Calcular 1](https://i.ibb.co/PgrjPjy/Calcular1.jpg)
+
+![Calcular 2](https://i.ibb.co/VwwFkyP/Calcular2.jpg)
+
+*Mapa*
+
+![Mapa 1](https://i.ibb.co/D19d7hF/Mapa1.jpg)
+
+![Mapa 2](https://i.ibb.co/zJpthqv/Mapa2.jpg)
+
+**Implementación de pruebas unitarias de los componentes de las solución TSP**
+
+*Leer*
+
+![Leer 1](https://i.ibb.co/kBtqgrK/Leer1.jpg)
+
+*Grafito*
+
+![Grafito 1](https://i.ibb.co/XJ7qsY8/Grafito1.jpg)
+
+*Prim*
+
+![Prim 1](https://i.ibb.co/m5RgsP2/Prim1.jpg)
+
+*Kruskal*
+
+![Kruskal 1](https://i.ibb.co/ThPvm09/Kruskal1.jpg)
+
+![Kruskal 2](https://i.ibb.co/mNjNQwT/Kruskal2.jpg)
+
+![Kruskal 3](https://i.ibb.co/qRkGXz9/Kruskal3.jpg)
+
+**Medir atributos de calidad del desarrollo de la solución TSP**
+
+*Caso 1*
+
+![Caso 1](https://i.ibb.co/V9pvHxY/Caso1.jpg)
+
+*Caso 2*
+
+![Caso 2](https://i.ibb.co/q7WwK0y/Caso2.jpg)
+
+*Caso 3*
+
+![Caso 3](https://i.ibb.co/wN3F9Rb/Caso3.jpg)
+
+## Referencias
+
+Espinoza, D. (2006). El Problema del Vendedor Viajero (TSP) y Programación Entera (IP) [diapositivas de PowerPoint]. Recuperado de: http://www.dii.uchile.cl/~daespino/PApers/TSP_and_IP_chile_050820.pdf
+
+Prim’s Minimum Spanning Tree (MST) | Greedy Algo-5. (s.f.). Recuperado de: https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
+
+Kruskal’s Minimum Spanning Tree Algorithm | Greedy Algo-2. (s.f.). Recuerpado de: https://www.geeksforgeeks.org/?p=26604/
