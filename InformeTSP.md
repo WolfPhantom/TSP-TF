@@ -16,8 +16,11 @@ El presente trabajo tiene como objetivo principal encontrar una solución parcia
 
 ## 3.	Marco Teórico
 
-El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. El cual comienza con un árbol de expansión vacío. La idea es mantener dos conjuntos de vértices. El primer conjunto contiene los vértices ya incluidos en el MST (minimum spanning tree), el otro conjunto contiene los vértices aún no incluidos. En cada paso, va agregando vértices cuya distancia a los vértices de los incluidos en el MST mínima. 
+El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. El cual comienza con un árbol de expansión vacío. La idea es mantener dos conjuntos de vértices. El primer conjunto contiene los vértices ya incluidos en el MST (minimum spanning tree), el otro conjunto contiene los vértices aún no incluidos. En cada paso, va agregando vértices cuya distancia a los vértices de los incluidos en el MST mínima.
+
 El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienza ordenando todos los bordes en orden no decreciente de su peso. Después, elije el arco más pequeño y comprueba si forma un ciclo con el MST formado hasta el momento. Si no hay ciclo, incluye el arco al MST. Si no, lo descarta y escoge otro arco. Repite este paso hasta que haya (v – 1) arcos en el MST.
+
+El recorrido en preoerden de un árbol se realiza de esta manera: se visita el nodo raíz, luego recursivamente se realiza un recorrido en preorden del subárbol izquierdo, seguido de un recorrido en preorden del subárbol derecho.
 
 ## 4. Diseño de pruebas
 
@@ -112,3 +115,5 @@ Espinoza, D. (2006). El Problema del Vendedor Viajero (TSP) y Programación Ente
 Prim’s Minimum Spanning Tree (MST) | Greedy Algo-5. (s.f.). Recuperado de: https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
 
 Kruskal’s Minimum Spanning Tree Algorithm | Greedy Algo-2. (s.f.). Recuerpado de: https://www.geeksforgeeks.org/?p=26604/
+
+Recorridos de árboles. (s.f). Recuperado de: http://interactivepython.org/runestone/static/pythoned/Trees/RecorridosDeArboles.html
