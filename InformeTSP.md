@@ -12,13 +12,13 @@ La principal motivación para el desarrollo del proyecto, consiste en las difere
 
 ## 2. Objetivo
 
-El presente trabajo tiene como objetivo principal encontrar una solución parcial al problema de TSP usando una dataset del Ministerio de Educación del Perú. La cual contiene la posición geográfica (latitud y longitud) de cada centro poblado del Perú.
+El presente trabajo tiene como objetivo principal encontrar una solución parcial al problema de TSP usando dos dataset distintos del Ministerio de Educación del Perú. Uno de ellos contiene la posición geográfica (latitud y longitud) de cada centro poblado del Perú. Mientras que, el otro contiene contiene la posición geográfica (latitud y longitud) de cada centro educativo del país.
 
 ## 3.	Marco Teórico
 
-El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. El cual comienza con un árbol de expansión vacío. La idea es mantener dos conjuntos de vértices. El primer conjunto contiene los vértices ya incluidos en el MST (minimum spanning tree), el otro conjunto contiene los vértices aún no incluidos. En cada paso, va agregando vértices cuya distancia a los vértices de los incluidos en el MST mínima.
+El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. El cual comienza con un árbol de expansión vacío. La idea es mantener dos conjuntos de vértices. El primer conjunto contiene los vértices ya incluidos en el MST (minimum spanning tree), el otro conjunto contiene los vértices aún no incluidos. En cada paso, va agregando vértices cuya distancia a los vértices de los incluidos en el MST mínima. Nuesta implementación de este algoritmo tiene una complejidad O(n long n).
 
-El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienza ordenando todos los bordes en orden no decreciente de su peso. Después, elije el arco más pequeño y comprueba si forma un ciclo con el MST formado hasta el momento. Si no hay ciclo, incluye el arco al MST. Si no, lo descarta y escoge otro arco. Repite este paso hasta que haya (v – 1) arcos en el MST.
+El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienza ordenando todos los bordes en orden no decreciente de su peso. Después, elije el arco más pequeño y comprueba si forma un ciclo con el MST formado hasta el momento. Si no hay ciclo, incluye el arco al MST. Si no, lo descarta y escoge otro arco. Repite este paso hasta que haya (v – 1) arcos en el MST. Nuesta implementación de este algoritmo tiene una complejidad O(n long n).
 
 El recorrido en preoerden de un árbol se realiza de esta manera: se visita el nodo raíz, luego recursivamente se realiza un recorrido en preorden del subárbol izquierdo, seguido de un recorrido en preorden del subárbol derecho.
 
@@ -107,6 +107,12 @@ Errores Leves, errores en presentación de datos secundarios, no adecuación a e
 *Caso 3*
 
 ![Caso 3](https://i.ibb.co/wN3F9Rb/Caso3.jpg)
+
+## 6. Análisis e interpretación de datos/resultados
+
+
+
+## 7. Conclusiones
 
 ## Referencias
 
