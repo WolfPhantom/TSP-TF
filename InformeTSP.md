@@ -12,7 +12,7 @@ La principal motivación para el desarrollo del proyecto, consiste en las difere
 
 ## 2. Objetivo
 
-El presente trabajo tiene como objetivo principal encontrar una solución parcial al problema de TSP usando dos dataset distintos del Ministerio de Educación del Perú. Uno de ellos contiene la posición geográfica (latitud y longitud) de cada centro poblado del Perú. Mientras que, el otro contiene contiene la posición geográfica (latitud y longitud) de cada centro educativo del país.
+El presente trabajo tiene como objetivo principal encontrar una solución parcial al problema de TSP usando dos *datasets* distintas del Ministerio de Educación del Perú. Uno de ellos contiene la posición geográfica (latitud y longitud) de cada centro poblado del Perú. Mientras que, el otro contiene contiene la posición geográfica (latitud y longitud) de cada centro educativo del país.
 
 ## 3.	Marco Teórico
 
@@ -110,9 +110,23 @@ Errores Leves, errores en presentación de datos secundarios, no adecuación a e
 
 ## 6. Análisis e interpretación de datos/resultados
 
+El timpo de ejecución, de la implementación del algoritmo de Prim como solución al TSP, esta bajo la formula O(n log(n) + 2n) en el peor caso. Esta formula engloba la ejecución de los módulos Prim, recorrido en preorden y graficación.
+Entonce, para cada *dataset*, el tiempo sería:
+* Caso 1 - n = 25 -> 25(log(25)) + 2(25) = 84.9485002 µs = (8.495)10^-5 s teoricamente.
+* Caso 2 - n = 171 -> 171(log(171)) + 2(171) = 723.842335 µs = (7.239)10^-4 s teóricamente.
+* Caso 3 - n = 1678 -> 1678(log(1678)) + 2(1678) = 8767.20091 µs = (8.767)10^-3 s teóricamente.
+* Caso 4 - n = 143351 -> 143351(log(143351)) + 2(143351) = 1025877.201 µs = 1.026 s teóricamente.
 
+El timpo de ejecución, de la implementación del algoritmo de Kruskal como solución al TSP, esta bajo la formula O(n log(n) + 2n) en el peor caso. Esta formula engloba la ejecución de los módulos Kruskal, recorrido en preorden y graficación.
+Entonce, para cada *dataset*, el tiempo sería:
+* Caso 1 - n = 25 -> 25(log(25)) + 2(25) = 84.9485002 µs = (8.495)10^-5 s teóricamente.
+* Caso 2 - n = 171 -> 171(log(171)) + 2(171) = 723.842335 µs = (7.239)10^-4 s teóricamente.
+* Caso 3 - n = 1678 -> 1678(log(1678)) + 2(1678) = 8767.20091 µs = (8.767)10^-3 s teóricamente.
+* Caso 4 - n = 143351 -> 143351(log(143351)) + 2(143351) = 1025877.201 µs = 1.026 s teóricamente.
 
 ## 7. Conclusiones
+
+Luego de hacer las pruebas debidas, hemos comprobado que se ha podido implementar una solución parcial al TSP. La eficacia de los algortimos es óptima cuando se trabaja con *datasets* parciales, que contengan una cantidad de datos razonables. Cuando se intenta trabajar con el *dataset* completo la eficacia de los algoritmos decrece por su complejidad.
 
 ## Referencias
 
