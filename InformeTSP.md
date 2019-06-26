@@ -20,7 +20,7 @@ El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. E
 
 El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienza ordenando todos los bordes en orden no decreciente de su peso. Después, elije el arco más pequeño y comprueba si forma un ciclo con el MST formado hasta el momento. Si no hay ciclo, incluye el arco al MST. Si no, lo descarta y escoge otro arco. Repite este paso hasta que haya (v – 1) arcos en el MST. Nuesta implementación de este algoritmo tiene una complejidad O(E long E).
 
-El recorrido en preoerden de un árbol se realiza de esta manera: se visita el nodo raíz, luego recursivamente se realiza un recorrido en preorden del subárbol izquierdo, seguido de un recorrido en preorden del subárbol derecho. Para el presente trabajo optamos por implementat un algoritmo DFS, ya que es similar a un algoritmo preorden al reocorrer la estructura de datos. La complejidad de nuestra implementación es O(E+V).
+El recorrido en preoerden de un árbol se realiza de esta manera: se visita el nodo raíz, luego recursivamente se realiza un recorrido en preorden del subárbol izquierdo, seguido de un recorrido en preorden del subárbol derecho. Para el presente trabajo optamos por implementar un algoritmo DFS, ya que es similar a un algoritmo preorden al recorrer la estructura de datos. Nuestra implementación de este algoritmo tiene una complejidad O(E+V).
 
 ## 4. Diseño de pruebas
 
