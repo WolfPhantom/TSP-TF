@@ -132,8 +132,8 @@ Luego de hacer las pruebas debidas, hemos comprobado que se ha podido implementa
 
 Espinoza, D. (2006). El Problema del Vendedor Viajero (TSP) y Programación Entera (IP) [diapositivas de PowerPoint]. Recuperado de: http://www.dii.uchile.cl/~daespino/PApers/TSP_and_IP_chile_050820.pdf
 
-Prim’s Minimum Spanning Tree (MST) | Greedy Algo-5. (s.f.). Recuperado de: https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
-
 Kruskal’s Minimum Spanning Tree Algorithm | Greedy Algo-2. (s.f.). Recuerpado de: https://www.geeksforgeeks.org/?p=26604/
+
+Prim’s Minimum Spanning Tree (MST) | Greedy Algo-5. (s.f.). Recuperado de: https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
 
 Recorridos de árboles. (s.f). Recuperado de: http://interactivepython.org/runestone/static/pythoned/Trees/RecorridosDeArboles.html
