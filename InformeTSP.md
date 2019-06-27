@@ -80,19 +80,19 @@ Errores Leves, errores en presentación de datos secundarios, no adecuación a e
 
 *Prim*
 
-![Prim 1](https://i.ibb.co/m5RgsP2/Prim1.jpg)
+![Prim 1](https://i.ibb.co/cgN5yVS/Prim2.jpg)
+
+![Prim 2](https://i.ibb.co/SmRnJmQ/Prim1.jpg)
 
 *Kruskal*
 
-![Kruskal 1](https://i.ibb.co/ThPvm09/Kruskal1.jpg)
+![Kruskal 1](https://i.ibb.co/0sS1MHd/Kruskal2.jpg)
 
-![Kruskal 2](https://i.ibb.co/mNjNQwT/Kruskal2.jpg)
+![Kruskal 2](https://i.ibb.co/d6xKs2k/Kruskal1.jpg)
 
-![Kruskal 3](https://i.ibb.co/qRkGXz9/Kruskal3.jpg)
+*DFS*
 
-*Preorder*
-
-![Preorder 1](https://i.ibb.co/1b3HSSb/Preorder1.jpg)
+![DFS 1](https://i.ibb.co/yXBQmNq/Preorder1.jpg)
 
 **Medir atributos de calidad del desarrollo de la solución TSP**
 
