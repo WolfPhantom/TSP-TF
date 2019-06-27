@@ -12,7 +12,7 @@ La principal motivación para el desarrollo del proyecto, consiste en las difere
 
 ## 2. Objetivo
 
-El presente trabajo tiene como objetivo principal encontrar una solución parcial al problema de TSP usando dos *datasets* distintas del Ministerio de Educación del Perú. Uno de ellos contiene la posición geográfica (latitud y longitud) de cada centro poblado del Perú. Mientras que, el otro contiene contiene la posición geográfica (latitud y longitud) de cada centro educativo del país.
+El presente trabajo tiene como objetivo principal encontrar una solución parcial al problema de TSP usando dos *datasets* distintas del Ministerio de Educación del Perú. Uno de ellos contiene la posición geográfica (latitud y longitud) de cada centro poblado del Perú. Mientras que, el otro contiene la posición geográfica (latitud y longitud) de cada centro educativo del país.
 
 ## 3.	Marco Teórico
 
