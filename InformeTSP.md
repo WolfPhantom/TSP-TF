@@ -16,11 +16,11 @@ El presente trabajo tiene como objetivo principal encontrar una solución parcia
 
 ## 3.	Marco Teórico
 
-El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. El cual comienza con un árbol de expansión vacío. La idea es mantener dos conjuntos de vértices. El primer conjunto contiene los vértices ya incluidos en el MST (minimum spanning tree), el otro conjunto contiene los vértices aún no incluidos. En cada paso, va agregando vértices cuya distancia a los vértices de los incluidos en el MST mínima. Nuesta implementación de este algoritmo tiene una complejidad O(V long V).
+El algoritmo de Prim es un algoritmo perteneciente a la teoría de los grafos. El cual comienza con un árbol de expansión vacío. La idea es mantener dos conjuntos de vértices. El primer conjunto contiene los vértices ya incluidos en el MST (minimum spanning tree), el otro conjunto contiene los vértices aún no incluidos. En cada paso, va agregando vértices cuya distancia a los vértices de los incluidos en el MST mínima. Nuesta implementación tiene una complejidad O(V ^ 2).
 
-El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienza ordenando todos los bordes en orden no decreciente de su peso. Después, elije el arco más pequeño y comprueba si forma un ciclo con el MST formado hasta el momento. Si no hay ciclo, incluye el arco al MST. Si no, lo descarta y escoge otro arco. Repite este paso hasta que haya (v – 1) arcos en el MST. Nuesta implementación de este algoritmo tiene una complejidad O(E long E).
+El algoritmo de Kruskal es un algoritmo de la teoría de grafos. El cual comienza ordenando todos los bordes en orden no decreciente de su peso. Después, elije el arco más pequeño y comprueba si forma un ciclo con el MST formado hasta el momento. Si no hay ciclo, incluye el arco al MST. Si no, lo descarta y escoge otro arco. Repite este paso hasta que haya (v – 1) arcos en el MST. Nuesta implementación tiene una complejidad O(E long E).
 
-El recorrido en preoerden de un árbol se realiza de esta manera: se visita el nodo raíz, luego recursivamente se realiza un recorrido en preorden del subárbol izquierdo, seguido de un recorrido en preorden del subárbol derecho. Para el presente trabajo optamos por implementar un algoritmo DFS, ya que es similar a un algoritmo preorden al recorrer la estructura de datos. Nuestra implementación de este algoritmo tiene una complejidad O(E+V).
+El recorrido en preoerden de un árbol se realiza de esta manera: se visita el nodo raíz, luego recursivamente se realiza un recorrido en preorden del subárbol izquierdo, seguido de un recorrido en preorden del subárbol derecho. Para el presente trabajo optamos por implementar un algoritmo DFS, ya que es similar a un algoritmo preorden al recorrer la estructura de datos. Nuestra implementación tiene una complejidad O(E + V).
 
 ## 4. Diseño de pruebas
 
@@ -110,23 +110,23 @@ Errores Leves, errores en presentación de datos secundarios, no adecuación a e
 
 ## 6. Análisis e interpretación de datos/resultados
 
-El timpo de ejecución, de la implementación del algoritmo de Prim como solución al TSP, esta bajo la formula O(n ^2) en el peor caso. Esta formula engloba la ejecución de los módulos Prim, recorrido en preorden y graficación.
-Entonce, para cada *dataset*, el tiempo sería:
-* Caso 1 - n = 25 -> 25^2  = 625 µs = (625)10^-6 s teoricamente.
-* Caso 2 - n = 171 -> 171^2 = 29 241‬ µs = (29241)10^-6 s teóricamente.
+El timpo de ejecución, de la implementación del algoritmo de Prim como solución al TSP, esta bajo la formula O(V ^ 2) en el peor caso.
+Entonces, para cada *dataset*, el tiempo sería:
+* Caso 1 - n = 25 -> 25^2 = 625 µs = 0.000625‬ s teóricamente.
+* Caso 2 - n = 171 -> 171^2 = 29 241‬ µs = 0.029241 s teóricamente.
 * Caso 3 - n = 1678 -> 1678^2  = 2 815 684‬ µs = 2,815648 s teóricamente.
 * Caso 4 - n = 143351 -> 143351^2 = 20 549 509 201‬ µs = 5.7081970002778 h teóricamente.
 
-El timpo de ejecución, de la implementación del algoritmo de Kruskal como solución al TSP, esta bajo la formula O(n log(n) + 2n) en el peor caso. Esta formula engloba la ejecución de los módulos Kruskal, recorrido en preorden y graficación.
-Entonce, para cada *dataset*, el tiempo sería:
-* Caso 1 - n = 25 -> 25(log(25)) + 2(25) = 84.9485002 µs = (8.495)10^-5 s teóricamente.
-* Caso 2 - n = 171 -> 171(log(171)) + 2(171) = 723.842335 µs = (7.239)10^-4 s teóricamente.
-* Caso 3 - n = 1678 -> 1678(log(1678)) + 2(1678) = 8767.20091 µs = (8.767)10^-3 s teóricamente.
-* Caso 4 - n = 143351 -> 143351(log(143351)) + 2(143351) = 1025877.201 µs = 1.026 s teóricamente.
+El timpo de ejecución, de la implementación del algoritmo de Kruskal como solución al TSP, esta bajo la formula O(E log(E)) en el peor caso. Al momento de leer los datos del *dataset* genera de 5 a 7 arcos por nodo, en el peor caso generaría 7 arcos por nodo.
+Entonces, para cada *dataset*, el tiempo sería:
+* Caso 1 - n = 25 -> E = 175 = 175(log(175)) = 1303.96 µs = 0.00130396 s teóricamente.
+* Caso 2 - n = 171 -> E = 1197 = 1197(log(1197)) = 12 239.57 µs = 0.01223957 s teóricamente.
+* Caso 3 - n = 1678 -> E = 11746‬ = 11746(log(11746)) = 158 804.53 µs = 0.15880453 s teóricamente.
+* Caso 4 - n = 143351 -> E = 1 003 457‬ = 1 003 457‬(log(1 003 457‬)) = 20 005 468.01 µs = 20.00546801 s teóricamente.
 
 ## 7. Conclusiones
 
-Luego de hacer las pruebas debidas, hemos comprobado que se ha podido implementar una solución parcial al TSP. La eficacia de los algortimos es óptima cuando se trabaja con *datasets* parciales, que contengan una cantidad de datos razonables. Cuando se intenta trabajar con el *dataset* completo la eficacia de los algoritmos decrece por su complejidad.
+Luego de hacer las pruebas debidas, hemos comprobado que se ha podido implementar una solución parcial al TSP. La eficacia de los algortimos es óptima cuando se trabaja con *datasets* parciales, que contengan una cantidad de datos razonables. Cuando se intenta trabajar con el *dataset* completo la eficacia de los algoritmos decrece.
 
 ## Referencias
 
