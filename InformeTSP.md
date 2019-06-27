@@ -110,14 +110,14 @@ Errores Leves, errores en presentación de datos secundarios, no adecuación a e
 
 ## 6. Análisis e interpretación de datos/resultados
 
-El timpo de ejecución, de la implementación del algoritmo de Prim como solución al TSP, esta bajo la formula O(V ^ 2) en el peor caso.
+El timpo de ejecución, de la implementación del algoritmo de Prim como solución al TSP, esta bajo la formula O(V ^ 2).
 Entonces, para cada *dataset*, el tiempo sería:
 * Caso 1 - n = 25 -> 25^2 = 625 µs = 0.000625‬ s teóricamente.
 * Caso 2 - n = 171 -> 171^2 = 29 241‬ µs = 0.029241 s teóricamente.
 * Caso 3 - n = 1678 -> 1678^2  = 2 815 684‬ µs = 2,815648 s teóricamente.
 * Caso 4 - n = 143351 -> 143351^2 = 20 549 509 201‬ µs = 5.7081970002778 h teóricamente.
 
-El timpo de ejecución, de la implementación del algoritmo de Kruskal como solución al TSP, esta bajo la formula O(E log(E)) en el peor caso. Al momento de leer los datos del *dataset* genera de 5 a 7 arcos por nodo, en el peor caso generaría 7 arcos por nodo.
+El timpo de ejecución, de la implementación del algoritmo de Kruskal como solución al TSP, esta bajo la formula O(E log(E)). Al momento de leer los datos del *dataset* genera de 5 a 7 arcos por nodo, en el peor caso generaría 7 arcos por nodo.
 Entonces, para cada *dataset*, el tiempo sería:
 * Caso 1 - n = 25 -> E = 175 = 175(log(175)) = 1303.96 µs = 0.00130396 s teóricamente.
 * Caso 2 - n = 171 -> E = 1197 = 1197(log(1197)) = 12 239.57 µs = 0.01223957 s teóricamente.
