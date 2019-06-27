@@ -119,10 +119,10 @@ Entonces, para cada *dataset*, el tiempo sería:
 
 El timpo de ejecución, de la implementación del algoritmo de Kruskal como solución al TSP, esta bajo la formula O(E log(E)). Al momento de leer los datos del *dataset* genera de 5 a 7 arcos por nodo, en el peor caso generaría 7 arcos por nodo.
 Entonces, para cada *dataset*, el tiempo sería:
-* Caso 1 - n = 25 -> E = 175 = 175(log(175)) = 1303.96 µs = 0.00130396 s teóricamente.
-* Caso 2 - n = 171 -> E = 1197 = 1197(log(1197)) = 12 239.57 µs = 0.01223957 s teóricamente.
-* Caso 3 - n = 1678 -> E = 11746‬ = 11746(log(11746)) = 158 804.53 µs = 0.15880453 s teóricamente.
-* Caso 4 - n = 143351 -> E = 1 003 457‬ = 1 003 457‬(log(1 003 457‬)) = 20 005 468.01 µs = 20.00546801 s teóricamente.
+* Caso 1 - n = 25 -> E = 175 -> 175(log(175)) = 1303.96 µs = 0.00130396 s teóricamente.
+* Caso 2 - n = 171 -> E = 1197 -> 1197(log(1197)) = 12 239.57 µs = 0.01223957 s teóricamente.
+* Caso 3 - n = 1678 -> E = 11746‬ -> 11746(log(11746)) = 158 804.53 µs = 0.15880453 s teóricamente.
+* Caso 4 - n = 143351 -> E = 1 003 457‬ -> 1 003 457‬(log(1 003 457‬)) = 20 005 468.01 µs = 20.00546801 s teóricamente.
 
 ## 7. Conclusiones
 
