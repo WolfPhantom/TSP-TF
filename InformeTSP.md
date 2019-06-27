@@ -126,7 +126,7 @@ Entonces, para cada *dataset*, el tiempo sería:
 
 ## 7. Conclusiones
 
-Luego de hacer las pruebas debidas, hemos comprobado que se ha podido implementar una solución parcial al TSP. La eficacia de los algortimos es óptima cuando se trabaja con *datasets* parciales, que contengan una cantidad de datos razonables. Cuando se intenta trabajar con el *dataset* completo la eficacia de los algoritmos decrece.
+Luego de hacer las pruebas debidas, hemos comprobado que se ha podido implementar una solución parcial al TSP. La eficacia de los algoritmos es óptima cuando se trabaja con *datasets* parciales, que contengan una cantidad de datos razonables. Cuando se intenta trabajar con el *dataset* completo la eficacia de los algoritmos decrece.
 
 ## Referencias
 
